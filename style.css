@@ -389,25 +389,28 @@ a{
         display: none;
     }
     .info .text{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .info{
-        width: 98%;
+        width: 88%;
         height: 300px;
     }
     .info .text{
     height: 250px;
     }
     .info img{
-        height: 150px;
+        display: none;
     }
     .info .text button{
-        padding: 5px 50px;
-        font-size: 1.2rem;
-        font-weight: 600;
+        display: none;
     }
 
-   
+   .title{
+    width: 100%;
+    font-size: 1.4rem;
+    margin: 0 auto;
+    text-align: center;
+   }
     .card .content{
         flex-direction: column;
         row-gap: 10px;
